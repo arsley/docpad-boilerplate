@@ -4,7 +4,8 @@
 // Define the DocPad Configuration
 const docpadConfig = {
   documentPaths: [
-    'pages'
+    'pages',
+    'documents'
   ],
   outPath: 'dist'
 }
