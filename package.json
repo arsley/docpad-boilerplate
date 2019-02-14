@@ -16,6 +16,7 @@
     "start": "npm-run-all --parallel start:*",
     "start:docpad": "docpad run",
     "start:browser-sync": "browser-sync start -ws dist",
-    "test": "docpad generate"
+    "gen": "docpad generate",
+    "clean": "docpad clean"
   }
 }
