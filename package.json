@@ -1,0 +1,18 @@
+{
+  "name": "Docpad boilerplate",
+  "version": "1.0.0",
+  "description": "Docpad boilerplate with stylus, browser-sync and eco",
+  "dependencies": {
+    "docpad": "~6.82.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel start:*",
+    "start:docpad": "docpad run",
+    "start:browser-sync": "browser-sync start -ws dist",
+    "test": "docpad generate"
+  }
+}
